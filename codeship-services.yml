@@ -3,7 +3,8 @@ web-codeship-example-node:
   depends_on:
     - postgres
   environment:
-    DATABASE_URL: "postgres://todoapp@postgres/todos"
+    DATABASE_URL: "postgres://gckiwcnkomzwgh:d630bae9fb42eb30cd62337f51fc2fa0986ae35ecebfaeaf0acbf9f62b77f6ad@ec2-184-72-237-95.compute-1.amazonaws.com:5432/deco9a0cdsq2m5
+"
 postgres:
   image: healthcheck/postgres:alpine
   environment:
